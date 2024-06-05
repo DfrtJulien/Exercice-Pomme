@@ -1,20 +1,24 @@
 * {
     margin: 0;
 }
+
 body {
     width: 50%;
     margin: 0 auto;
-    background-color: rgba(121, 233, 121, 0.719);
+    background-color: #DDEEAA;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 .container {
-    border: 2px solid rgb(14, 116, 14);
+    border: 2px solid #AABB44;
     border-bottom: none;
     margin-top: 30px;
 }
+
 header{
     display: flex;
     width: 100%;
@@ -25,13 +29,14 @@ header{
 .apple {
     width: 300px;
 }
+
 .title-img {
     height: 150px;
     width: 50%;
 }
 
 nav {
-    background-color: rgb(92, 179, 21);
+    background-color: #72c029;
     color: white;
 }
 
@@ -47,7 +52,6 @@ section {
 }
 
 .img {
-    height: 40%;
     margin-top: 50px;
     margin-left: 20px;
 }
@@ -59,13 +63,14 @@ section {
 .block-left img {
     width: 45px;
 }
+
 .title {
     font-size: 30px;
-    color: rgb(92, 179, 21);
+    color: #AABB44;
     display: block;
     width: 100%;
     margin-bottom: 20px;
-    border-bottom: 1px solid rgb(92, 179, 21);
+    border-bottom: 1px solid #AABB44;
 }
 
 .block-right {
