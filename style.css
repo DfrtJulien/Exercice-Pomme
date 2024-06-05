@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+}
+body {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgba(121, 233, 121, 0.719);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.container {
+    border: 2px solid rgb(14, 116, 14);
+    border-bottom: none;
+    margin-top: 30px;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.apple {
+    width: 300px;
+}
+.title-img {
+    height: 150px;
+    width: 50%;
+}
+
+nav {
+    background-color: rgb(92, 179, 21);
+    color: white;
+}
+
+nav a {
+    padding: 5px 35px;
+    border-right: 1px solid white;
+    width: 100px;
+    display: inline-block;
+}
+
+section {
+    background-color: white;
+}
+
+.img {
+    width: 50%;
+    height: 60%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.section {
+    display: flex;
+}
+
+.title {
+    font-size: 30px;
+    color: rgb(92, 179, 21);
+    display: block;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(92, 179, 21);
+}
+
+.article_container {
+    padding: 50px;
+}
+
+article {
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+footer {
+    font-size: 20px;
+    color: rgb(92, 179, 21);
+    background-color: white;
+    padding: 5px;
+    border: 2px solid rgb(14, 116, 14);
+    border-top: none;
+    text-align: end;
+}
