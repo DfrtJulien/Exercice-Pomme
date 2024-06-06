@@ -15,6 +15,7 @@ a {
 
 .container {
     border: 2px solid #AABB44;
+    border-collapse: collapse;
     border-bottom: none;
     margin-top: 30px;
 }
@@ -64,6 +65,17 @@ section {
     width: 45px;
 }
 
+.img_tittle {
+    display: flex;
+}
+
+.little_apple {
+    height: 25px;
+    margin-top: 5px;
+    border-bottom: 1px solid #AABB44;
+    padding-bottom: 5px;
+}
+
 .title {
     font-size: 30px;
     color: #AABB44;
@@ -81,6 +93,7 @@ article p{
     font-size: 20px;
     letter-spacing: 1px;
     padding: 20px;
+    text-indent: 45px;
 }
 
 footer {
@@ -88,7 +101,8 @@ footer {
     color: rgb(92, 179, 21);
     background-color: white;
     padding: 5px;
-    border: 2px solid rgb(14, 116, 14);
+    border: 1px solid #AABB44;
+    border-collapse: collapse;
     border-top: none;
     text-align: end;
 }
