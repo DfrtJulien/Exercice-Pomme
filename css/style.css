@@ -70,10 +70,9 @@ section {
 }
 
 .little_apple {
-    height: 25px;
+    height: 30px;
     margin-top: 5px;
     border-bottom: 1px solid #AABB44;
-    padding-bottom: 5px;
 }
 
 .title {
@@ -83,6 +82,11 @@ section {
     width: 100%;
     margin-bottom: 20px;
     border-bottom: 1px solid #AABB44;
+}
+
+.secondary {
+    border-left: 3px solid #AABB44;
+    padding-left: 5px;
 }
 
 .block-right {
